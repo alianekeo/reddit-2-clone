@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
+import PropTypes from 'prop-types'
 import { SessionProvider } from "next-auth/react"
 import Header from '../components/Header'
 import { ApolloProvider } from '@apollo/client'
